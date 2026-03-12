@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday Huy Ung</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+text-align:center;
+background:linear-gradient(135deg,#ff9a9e,#fad0c4);
+color:white;
+}
+
+.container{
+margin-top:50px;
+}
+
+h1{
+font-size:50px;
+}
+
+button{
+padding:12px 25px;
+font-size:18px;
+border:none;
+border-radius:10px;
+background:white;
+color:#ff4d6d;
+cursor:pointer;
+}
+
+button:hover{
+background:#ffe5ec;
+}
+
+.decor img{
+width:200px;
+margin:10px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+.letter{
+display:none;
+margin:40px auto;
+width:70%;
+background:white;
+color:#333;
+padding:30px;
+border-radius:15px;
+line-height:1.8;
+font-size:18px;
+}
+
+.memory-gallery{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+margin-top:20px;
+}
+
+.memory-gallery img{
+width:200px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+transition:0.3s;
+}
+
+.memory-gallery img:hover{
+transform:scale(1.1);
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Nhạc nền -->
+<audio autoplay loop>
+<source src="nhacsinhnhat.mp3">
+</audio>
+
+<div class="container">
+
+<h1>🎂 Happy Birthday Huy Ung 🎂</h1>
+
+<div class="decor">
+<img src="anh2.jpg">
+<img src="anh6.jpg">
+</div>
+
+<br>
+
+<button onclick="openLetter()">Mở thư 💌</button>
+
+<div class="letter" id="letter">
+
+<p>
+Hôm nay là một ngày thật đặc biệt, vì đó là ngày Huy Ung được sinh ra trên thế giới này. 
+Mình muốn gửi đến bạn những lời chúc tốt đẹp nhất trong ngày sinh nhật của bạn. 
+Chúc bạn luôn vui vẻ, mạnh khỏe và lúc nào cũng tràn đầy năng lượng tích cực.
+</p>
+
+<p>
+Cảm ơn bạn vì đã xuất hiện trong cuộc sống và mang đến rất nhiều niềm vui, tiếng cười 
+và những kỷ niệm đáng nhớ. Mỗi khoảnh khắc được nói chuyện, học tập hay cùng nhau trải qua 
+những điều nhỏ bé trong cuộc sống đều trở thành những ký ức rất đáng trân trọng.
+</p>
+
+<h2>📸 Những ảnh kỷ niệm</h2>
+
+<div class="memory-gallery">
+
+<img src="anh1.jpg">
+<img src="anh5.jpg">
+<img src="anh3.jpg">
+<img src="anh4.jpg">
+
+</div>
+
+<p>
+Bước sang tuổi mới, mong rằng bạn sẽ có thêm thật nhiều cơ hội mới, nhiều thành công hơn 
+trong học tập và cuộc sống. Hy vọng mọi ước mơ của bạn sẽ dần trở thành hiện thực.
+</p>
+
+<p>
+Chúc cho tuổi mới của bạn sẽ thật rực rỡ, luôn đầy ắp tiếng cười, niềm vui và những điều hạnh phúc. 
+Mong rằng mỗi ngày trôi qua đều là một ngày đáng nhớ đối với bạn.
+</p>
+
+<p>
+Một lần nữa, chúc mừng sinh nhật Huy Ung.  
+<b>Hala Madrid ⚽🎉</b>
+</p>
+
+</div>
+
+</div>
+
+<script>
+
+function openLetter(){
+document.getElementById("letter").style.display="block";
+}
+
+</script>
+
+</body>
+</html>
