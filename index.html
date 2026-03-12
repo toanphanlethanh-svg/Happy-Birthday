@@ -81,7 +81,7 @@ transform:scale(1.1);
 <body>
 
 <!-- Nhạc sinh nhật -->
-<audio id="music" autoplay loop muted>
+<audio id="music">
 <source src="nhacsinhnhat.mp3" type="audio/mpeg">
 </audio>
 
@@ -149,16 +149,13 @@ Một lần nữa, chúc mừng sinh nhật Huy Ung.
 
 function openLetter(){
 document.getElementById("letter").style.display="block";
-}
 
-/* giúp nhạc tự chạy */
-window.onload=function(){
 let music=document.getElementById("music");
-music.muted=false;
-music.play().catch(()=>{});
+music.play();
 }
 
 </script>
 
 </body>
+
 </html>
